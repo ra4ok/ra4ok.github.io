@@ -1,148 +1,74 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <title>qiwi</title>
+    <title>Параграфы и заголовки</title>
 </head>
 
 <body>
-    <header>
-        <a href="#"><img src="https://static.qiwi.com/img/qiwi_com/logo/logo-qiwi-wallet-new.svg" alt="qiwi" width="100"></a>
-        <div>
-            <a href="#">Помощь</a>
-            <a href="#">Создать кошелек</a>
-            <a href="#">Войти</a>
-        </div>
-    </header>
-    <article>
-        <section>
-            <h1>Для регистрации нужен только номер телефона</h1>
-            <p>
-                Создайте кошелек по своему номеру телефона, чтобы легко покупать в интернете, платить по счетам и переводить деньги близким в любой момент.
-            </p>
-            <a href="#">Создать кошелек</a>
-        </section>
-        <section>
-            <div>
-                <a  href="form_dz.html" target="_blank">
-                    <div >
-                        <img src="img/220px-Fender_Jazz_Bass.jpg" alt="" width="50" height="50">
-                    </div>
-                    <span >
-                    Пополнение кошелька без комисии
-                </span>
+   
+    <h1>Параграф текста (абзац)</h1>
 
-                </a>
-                <br><br>
-                <a href="form_dz.html" target="_blank">
-                    <div>
-                        <img src="img/220px-Fender_Jazz_Bass.jpg" alt="" width="50" height="50">
-                    </div>
-                    <span >
-                    Более 15 000 оплачиваемых услуг
-                </span>
-                </a> <br><br>
+    <p>
+        Определяет текстовый абзац. Элемент p является блочным, всегда начинается с новой строки, абзацы текста идущие друг за другом разделяются между собой отбивкой. Величиной отбивки можно управлять с помощью стилей. Если закрывающего тега нет, считается, что конец абзаца совпадает с началом следующего абзаца или другого блочного элемента.
+    </p>
 
-                <a  href="#" target="_blank">
-                    <div >
-                        <img src="img/220px-Fender_Jazz_Bass.jpg" alt="" width="50" height="50">
-                    </div>
-                    <span>
-                    Перевод с карты на карту без регистрации
-                </span>
+    <p>
+        Буква «p» взята из слова «paragraph», что как-раз обозначает «абзац».
+    </p>
 
-                </a>
+    <p>
+        Внутри параграфа должен быть только текст и строчные элементы. Списков, таблиц, картинок внутри параграфа быть не должно. Это будет считаться ошибкой.
+    </p>
 
-            </div>
-            <div>
-                <h2>Переводите за 0%</h2>
-                <p>
-                    QIWI Кошелек помогает миллионам людей переводить деньги близким мгновенно и без комиссии.
-                </p>
-                <a href="#">Подробнее</a>
-                <img src="http://icon-icons.com/icons2/67/PNG/512/signpost_13560.png" alt="Указатель" width="75">
-            </div>
-            <div>
-                <div>
-                    <h2>Кэшбэк от QIWI Бонус</h2>
-                    <ul>
-                        <li>8% от покупок на Aliexpress</li>
-                        <li>5% от покупок на Lamoda</li>
-                        <li>До 25% в других магазинах</li>
-                        <a href="#">Получить кэшбэк</a>
-                    </ul>
+    <p>
+        Хотя закрывающий тег у параграфа теоретически не обязателен, но я крайне рекомендую всегда закрывать все параграфы. Таким образом вы избежите путаницы и ваш код будет более валидным.
+    </p>
 
+    <h1>Заголовки h1-h6</h1>
 
-                </div>
-                <div>
-                    <h2>
-                        Банковская карта QIWI</h2>
-                    <ul>
-                        <li>Бесплатное обслуживание</li>
-                        <li>100 000 точек пополнения</li>
-                        <li>Единый баланс с кошельком</li>
-                        <a href="#">Получить карту</a>
-                    </ul>
+    <p>
+        Конечно, абзацы помогают в структурировании документов. Но для того, чтобы разбить большой текст на меньшие логические части, можно озаглавить каждую из них. Каждая часть может содержать еще подчасти, со своими заголовками нижнего уровня, и так далее. Для задания заголовка, служат теги h1, h2, h3, h4, h5, h6. Заголовок тем ниже уровнем, чем больше это число. То есть, заголовок самого верхнего уровня будет называться h1, а самого нижнего — h6. По-умолчанию, текст, находящийся в этих заголовках, отображается большим шрифтом с отступами. Этот текст отображается на всю строку, то есть теги h являются блочными. У тега h1 шрифт самый крупный, а у тега h6 — самый мелкий. Как правило, на странице один, максимум — два тега верхнего уровня h1. С понижением уровня, количество тегов возрастает. Но редко какой веб-мастер сможет разбить текст так, что ему понадобятся заголовки 5 или 6 уровня. Даже 4 уровень применяется редко.
+    </p>
 
-                </div>
-            </div>
-        </section>
+    <p>
+        Создадим несколько примеров
+    </p>
 
-    </article>
-    <footer>
-        <div>
-            <div>
-                <a href="#">Карта Qiwi термиалов</a>
-                <a href="#">Безопасность</a>
-                <a href="#">Идентефикация</a>
-                <a href="#">Помощь</a>
-                <a href="#">Оферты</a>
-                <br><br>
-                <a href="#">Контакты</a>
-                <a href="#">Карта сайта</a>
-                <a href="#">Бизнесу</a>
-                <a href="#">Арендателям</a>
-                <a href="#">Работа в QIWI</a>
-                <a href="#">Инвесторам</a>
-                <a href="#">КИВИ Банк</a>
-            </div>
-            <br>
-            <div>
-                <span>8 800 707-77-59</span>
-                <div>
-                    <a href="#"><img src="https://lh6.ggpht.com/KFRKiuK2B5GxL_mcduMZkUa-WekuFKHIkg_zLLK29rTuTQsUv9iGhZXiQn3jtbOjr601=w170" alt="sda" width="25" height="25"></a>
-                    <a href="#"><img src="https://lh6.ggpht.com/KFRKiuK2B5GxL_mcduMZkUa-WekuFKHIkg_zLLK29rTuTQsUv9iGhZXiQn3jtbOjr601=w170" alt="sda" width="25" height="25"></a>
-                    <a href="#"><img src="https://lh6.ggpht.com/KFRKiuK2B5GxL_mcduMZkUa-WekuFKHIkg_zLLK29rTuTQsUv9iGhZXiQn3jtbOjr601=w170" alt="sda" width="25" height="25"></a>
-                    <a href="#"><img src="https://lh6.ggpht.com/KFRKiuK2B5GxL_mcduMZkUa-WekuFKHIkg_zLLK29rTuTQsUv9iGhZXiQn3jtbOjr601=w170" alt="sda" width="25" height="25"></a>
-                    <a href="#"><img src="https://lh6.ggpht.com/KFRKiuK2B5GxL_mcduMZkUa-WekuFKHIkg_zLLK29rTuTQsUv9iGhZXiQn3jtbOjr601=w170" alt="sda" width="25" height="25"></a>
-                    <a href="#"><img src="https://lh6.ggpht.com/KFRKiuK2B5GxL_mcduMZkUa-WekuFKHIkg_zLLK29rTuTQsUv9iGhZXiQn3jtbOjr601=w170" alt="sda" width="25" height="25"></a>
-                </div>
+    <h1>заголовок 1</h1>
 
-            </div>
-        </div>
-        <div>
-            <div>
-                <a href="#"><img src="https://apple.insidercdn.com/gallery/18671-17964-appstore-top-xl.jpg" alt="sad" width="100" height="50"></a>
-                <a href="#"><img src="https://apple.insidercdn.com/gallery/18671-17964-appstore-top-xl.jpg" alt="sad" width="100" height="50"></a>
-                <a href="#"><img src="https://apple.insidercdn.com/gallery/18671-17964-appstore-top-xl.jpg" alt="sad" width="100" height="50"></a>
-            </div>
-            <div>
-                <img src="http://s3-eu-west-1.amazonaws.com/hellosoda-www/wp-content/uploads/2016/12/13131437/Visa1.jpg" alt="safas" width="100" height="50">
-                <img src="http://s3-eu-west-1.amazonaws.com/hellosoda-www/wp-content/uploads/2016/12/13131437/Visa1.jpg" alt="safas" width="100" height="50">
-                <img src="http://s3-eu-west-1.amazonaws.com/hellosoda-www/wp-content/uploads/2016/12/13131437/Visa1.jpg" alt="safas" width="100" height="50">
-                <img src="http://s3-eu-west-1.amazonaws.com/hellosoda-www/wp-content/uploads/2016/12/13131437/Visa1.jpg" alt="safas" width="100" height="50">
-            </div>
-        </div>
+    <h2>заголовок 2</h2>
 
-        <div>
-            <span><p>
-        © 2016, КИВИ Банк (АО), лицензия ЦБ РФ № 2241
-    </p></span>
-            <span>
-        <p>
-            Россия, 117648, г. Москва, мкр. Чертаново Северное, д.1А, корп.1
-        </p>
-    </span></div>
-    </footer>
+    <h3>заголовок 3</h3>
+
+    <h4>заголовок 4</h4>
+
+    <h5>заголовок 5</h5>
+
+    <h6>заголовок 6</h6>
+
+    <h1>Разрывы строк - br</h1>
+
+    <p>
+        Иногда требуется перевести строку, не заканчивая при этом мысль, не закрывая абзац. То есть, просто перейти на новую строку. Для этого есть одиночный тег br. Вот пример его применения:
+    </p>
+
+    <h2>Памятник</h2>
+    <p>
+
+        Я памятник себе воздвиг нерукотворный, <br> К нему не зарастет народная тропа, <br> Вознесся выше он главою непокорной <br> Александрийского столпа.
+    </p>
+
+    <h1>Горизонтальная линия - hr</h1>
+
+    <p>
+        Это очень спецэфичное средство для визуального разделения частей. Часто его можно заменить, применив CSS, но иногда этот тег может оказаться полезен. А вот и его пример:
+    </p>
+    <hr>
+    <p>
+        Можно заметить, что тег одиночный. Если поместить его на страницу, то мы увидим горизонтальную линию, настолько широкую, на сколько позволяет рястянуться область, в которую она вставлена. Линия имеет ширину 2 пикселя и серый цвет. Но это легко меняется при помощи CSS. Пожалуй, это все, что стоит сказать про этот тег.
+    </p>
 </body>
+
 </html>
